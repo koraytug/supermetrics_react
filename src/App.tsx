@@ -7,8 +7,6 @@ import useToken from "./services/token.service";
 
 function App(): JSX.Element {
     const {token, setToken, credentials} = useToken();
-    console.log("app-token", token);
-    console.log("app-credentials", credentials);
 
     if (!token || !credentials || JSON.stringify(token) === "{}" || token === "") {
         return <LoginPage setToken={setToken}/>;
