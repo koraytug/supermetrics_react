@@ -1,0 +1,90 @@
+.login-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #B3B3B3;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    position:relative
+}
+ 
+
+.login-items{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 350px;
+    align-items: center;
+}
+
+.login-title{
+    display: flex;
+    flex-direction: row;
+    font-size: 26px;    
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.name-row{
+    display: flex;
+    flex-direction: row;  
+}
+
+.email-row{
+    display: flex;
+    flex-direction: row;  
+}
+.column{
+    display: flex;
+    flex-direction: column;    
+}
+.textbox-row{
+    display: flex;
+    flex-direction: row;  
+    width: 200px;
+}
+
+.textbox{
+    width: 200px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.label-row{
+    display: flex;
+    flex-direction: row;  
+    width: 80px;
+    margin-bottom: 5px;
+}
+
+.button-row{
+    display: flex;
+    flex-direction: row;  
+    align-items: flex-end;
+    width: 200px;
+    justify-content: flex-end;
+}
+
+.border{
+border: 1px;
+border-color: #000000;
+border-style: solid;
+}
+
+.go-button{
+    width: 50px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.shadow-dreamy {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+                0 2px 4px rgba(0,0,0,0.07), 
+                0 4px 8px rgba(0,0,0,0.07), 
+                0 8px 16px rgba(0,0,0,0.07),
+                0 16px 32px rgba(0,0,0,0.07), 
+                0 32px 64px rgba(0,0,0,0.07);
+  }
